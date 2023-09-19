@@ -1,9 +1,3 @@
-/**
- * 
- */
-/**
- * 
- */
 module HolaFX {
 	requires javafx.controls;
 	requires javafx.web;
@@ -13,4 +7,5 @@ module HolaFX {
 	requires javafx.graphics;
 	requires javafx.base;
 	opens application to javafx.graphics, javafx.base;
+	opens pruebaBoton to javafx.graphics, javafx.base;
 }
