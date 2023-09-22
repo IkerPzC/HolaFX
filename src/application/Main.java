@@ -7,11 +7,8 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-    public static void main(String[] args) {
-        launch(args);
-    }
 
-    @Override
+	@Override
     public void start(Stage escenario) {
     	//Instanciar texto
         Text msg = new Text("HolaFX Application ");
@@ -26,5 +23,9 @@ public class Main extends Application {
         escenario.setTitle("HolaFX Application con Scene");        
         //Mostrar Escenario
         escenario.show();
+    }
+	
+    public static void main(String[] args) {
+        launch(args);
     }
 }

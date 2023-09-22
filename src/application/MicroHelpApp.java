@@ -19,10 +19,6 @@ public class MicroHelpApp extends Application {
 	//Texto
     private Text textoAyuda = new Text();
 
-    public static void main(String[] args) {
-        Application.launch(args);
-    }
-
     @Override
     public void start(Stage stage) {
     	
@@ -95,5 +91,9 @@ public class MicroHelpApp extends Application {
         } else {
             textoAyuda.setVisible(false);
         }
+    }
+    
+    public static void main(String[] args) {
+        Application.launch(args);
     }
 }

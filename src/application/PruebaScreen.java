@@ -9,9 +9,6 @@ import javafx.stage.Screen;
 import javafx.stage.Stage;
 
 public class PruebaScreen extends Application {
- public static void main(String[] args) {
-	 Application.launch(args);
- }
 
  public void start(Stage stage) {
      ObservableList<Screen> screenList = Screen.getScreens();
@@ -37,4 +34,9 @@ public class PruebaScreen extends Application {
  public void print(Rectangle2D r) {
      System.out.format("minX=%.2f, minY=%.2f, width=%.2f, height=%.2f%n", r.getMinX(), r.getMinY(), r.getWidth(), r.getHeight());
  }
+ 
+ public static void main(String[] args) {
+	 Application.launch(args);
+ }
+ 
 }

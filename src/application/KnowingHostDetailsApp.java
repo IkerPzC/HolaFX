@@ -14,9 +14,6 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class KnowingHostDetailsApp extends Application {
- public static void main(String[] args) {
-     Application.launch(args);
- }
 
  @Override
  public void start(Stage stage) {
@@ -93,5 +90,9 @@ public class KnowingHostDetailsApp extends Application {
      
      //Se muestra la escena
      stage.show();
+ }
+ 
+ public static void main(String[] args) {
+     Application.launch(args);
  }
 }

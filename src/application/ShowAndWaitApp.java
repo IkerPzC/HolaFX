@@ -15,11 +15,6 @@ public class ShowAndWaitApp extends Application {
     //Variable para guardar el utltimo stage abierto
     protected Stage lastOpenStage;
 
-    //MAIN
-    public static void main(String[] args) {
-        Application.launch(args);
-    }
-
     @Override
     public void start(Stage stage) {
     	
@@ -99,5 +94,9 @@ public class ShowAndWaitApp extends Application {
         //Se muestra por consola el estado posterior de la escena
         System.out.println("After stage.showAndWait(): " + stageNumber);
     }
+    
+    //MAIN
+    public static void main(String[] args) {
+        Application.launch(args);
+    }
 }
-
